@@ -1,0 +1,131 @@
+/*General*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #302e2b;
+    padding-top: 40px;
+    padding-left: 300px;
+    padding-bottom: 40px;
+}
+
+/*Main*/
+section {
+    background-color: #272523;
+    width: 800px;
+    padding: 30px;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 64px;
+    padding-top: 15px;
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 32px;
+    padding-top: 15px;
+}
+
+h3 {
+    color: hsla(0,0%,100%,.72);
+    font-family: sans-serif;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+p {
+    color: hsla(0,0%,100%,.72);
+    font-family: "Segoe UI";
+    padding-top: 15px;
+}
+
+/*Barra de navegación*/
+.nav {
+    background-color: #272523;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 2px;
+}
+
+.nav ul, ol {
+    list-style: none;
+}
+
+.nav a {
+    padding: 8px 12px;
+    text-decoration: none;
+    font-family: "Segoe UI";
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(226, 223, 223);
+    display: flex;
+    align-items: center;
+}
+
+.nav a:hover {
+    background-color: #20201e;
+    color: white;
+}
+
+.nav img {
+    padding-right: 8px;
+}
+
+/*Barra de navegación MINI*/
+.nav- {
+    background-color: #141413;
+    height: 100%;
+    width: 455px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 4px;
+}
+
+.nav- ul, ol {
+    list-style: none;
+}
+
+.nav- a {
+    padding: 8px 12px;
+    text-decoration: none;
+    font-family: "Segoe UI";
+    font-weight: 650;
+    font-size: 15px;
+    color: rgb(226, 223, 223);
+    align-items: center;
+    display: flex;
+}
+
+.nav- img {
+    padding-right: 6px;
+    padding-left: 153px;
+}
+
+.nav- a:hover {
+    background-color: #111010;
+    color: white;
+}
+
+/*Administración de barras*/
+
+#sidebar-1 {
+    display: none;
+}
+
+#sidebar-2 {
+    display: none;
+}
